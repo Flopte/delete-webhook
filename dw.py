@@ -1,0 +1,1 @@
+from requests import delete;r=input("Webhook Link >>> : ");s=delete(r);print(s.text)
